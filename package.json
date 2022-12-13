@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mabchhan/Generate-Readme/issues"
   },
-  "homepage": "https://github.com/mabchhan/Generate-Readme#readme"
+  "homepage": "https://github.com/mabchhan/Generate-Readme#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
