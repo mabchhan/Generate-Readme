@@ -1,0 +1,19 @@
+{
+  "name": "generate-readme",
+  "version": "1.0.0",
+  "description": "we can create readme file by command-line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabchhan/Generate-Readme.git"
+  },
+  "author": "mab chhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mabchhan/Generate-Readme/issues"
+  },
+  "homepage": "https://github.com/mabchhan/Generate-Readme#readme"
+}
