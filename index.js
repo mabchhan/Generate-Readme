@@ -16,10 +16,30 @@ const questions = [
     name: "description",
   },
   {
+    type: "input",
+    message: "What are the steps required to install your project?",
+    name: "installation",
+  },
+  {
+    type: "input",
+    message: "What problem does it solve?",
+    name: "usage",
+  },
+  {
     type: "list",
     message: "Please select license for your project:",
-    choices: ["None", "MIT", "Apache", "GNU"],
+    choices: ["None", "MIT", "Apache", "IBM", "ISC"],
     name: "license",
+  },
+  {
+    type: "input",
+    message: "Who were your contribute?",
+    name: "contribute",
+  },
+  {
+    type: "input",
+    message: "How to run your project?",
+    name: "tests",
   },
   {
     type: "input",
@@ -44,7 +64,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((answers) => {
     //console.log(data);
-    generateMarkdown(answers);
+    //generateMarkdown(answers);
     writeToFile("READMe.md", generateMarkdown(answers));
   });
 }
