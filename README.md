@@ -1,30 +1,31 @@
-# as  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Generate README           ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
 
 ## Description
 
-eed
+easy to create README file
 
-
-## Table of Contents (Optional)
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Contributing](#contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
-## #Installation
+## Installation
 
-a
+no
 
 ## Usage
 
-dada
+save time
 
-## #License
+## License
 
-MIT
+ISC
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+https://opensource.org/licenses/ISC
 
 ## Contributing
 
@@ -32,12 +33,13 @@ no
 
 ## Tests
 
-command line
-
+use command line
 
 ## Questions
 
-my GitHub profile: https://github.com/mab
+If have any questions contact me:
 
-my Email: chhan'
+my GitHub: https://github.com/mabchhan
+
+my Email: mabchhan@gmail.com
 

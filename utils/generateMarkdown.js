@@ -10,11 +10,11 @@ function renderLicenseBadge(license) {
       return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
 
     case "Apache":
-      return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      return "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
     case "IBM":
-      return `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`;
+      return `![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)`;
     case "ISC":
-      return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
+      return `![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)`;
     default:
       return "not found";
   }
@@ -27,13 +27,13 @@ function renderLicenseLink(license) {
     case "None":
       return "";
     case "MIT":
-      return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+      return `https://opensource.org/licenses/MIT`;
     case "Apache":
-      return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+      return `https://opensource.org/licenses/Apache-2.0`;
     case "IBM":
-      return `[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)`;
+      return `https://opensource.org/licenses/IPL-1.0`;
     case "ISC":
-      return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
+      return `https://opensource.org/licenses/ISC`;
     default:
       return "not found";
   }
@@ -60,20 +60,22 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}  ${renderLicenseBadge(data.license)}
+  return `# ${data.title}           ${renderLicenseBadge(data.license)}
 
 ## Description
 
 ${data.description}
 
-
-## Table of Contents (Optional)
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Contributing](#contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
-## #Installation
+## Installation
 
 ${data.installation}
 
@@ -81,12 +83,11 @@ ${data.installation}
 
 ${data.usage}
 
-## #License
+## License
 
 ${data.license}
 
 ${renderLicenseLink(data.license)}
-
 
 ## Contributing
 
@@ -96,10 +97,11 @@ ${data.contribute}
 
 ${data.tests}
 
-
 ## Questions
 
-my GitHub profile: https://github.com/${data.github}
+If have any questions contact me:
+
+my GitHub: https://github.com/${data.github}
 
 my Email: ${data.email}
 
