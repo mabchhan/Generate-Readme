@@ -65,7 +65,7 @@ function init() {
   inquirer.prompt(questions).then((answers) => {
     //console.log(data);
     //generateMarkdown(answers);
-    writeToFile("READMe.md", generateMarkdown(answers));
+    writeToFile("GenerateReadme.md", generateMarkdown(answers));
   });
 }
 

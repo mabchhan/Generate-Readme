@@ -1,45 +1,55 @@
-# Generate README           ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+# Generate README
 
-## Description
+## User Story
 
-easy to create README file
+AS A developer
 
-## Table of Contents 
+- I WANT a README generator
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#Tests)
-- [Questions](#Questions)
+- SO THAT I can quickly create a professional README for a new project
 
-## Installation
+## Acceptance Criteria
 
-no
+GIVEN a command-line application that accepts user input
 
-## Usage
+- WHEN I am prompted for information about my application repository
 
-save time
+  - THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing,
 
-## License
+    Tests, and Questions
 
-ISC
+- WHEN I enter my project title
 
-https://opensource.org/licenses/ISC
+  - THEN this is displayed as the title of the README
 
-## Contributing
+- WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
 
-no
+  - THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
 
-## Tests
+- WHEN I choose a license for my application from a list of options
 
-use command line
+  - THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is
 
-## Questions
+  covered under
 
-If have any questions contact me:
+- WHEN I enter my GitHub username
 
-my GitHub: https://github.com/mabchhan
+  - THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
 
-my Email: mabchhan@gmail.com
+- WHEN I enter my email address
 
+  - THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+
+- WHEN I click on the links in the Table of Contents
+
+  - THEN I am taken to the corresponding section of the README
+
+## Link
+
+- Link to Repo
+
+  - https://github.com/mabchhan/Generate-Readme
+
+- Link to Video
+
+  -

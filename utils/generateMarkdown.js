@@ -89,6 +89,8 @@ ${data.license}
 
 ${renderLicenseLink(data.license)}
 
+${renderLicenseSection(data.license)}
+
 ## Contributing
 
 ${data.contribute}
