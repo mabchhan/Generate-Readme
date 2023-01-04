@@ -1,8 +1,8 @@
-# readme           ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+# generate readme           ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
 ## Description
 
-to generate readme
+easy to generate readme
 
 ## Table of Contents 
 
@@ -19,7 +19,7 @@ no
 
 ## Usage
 
-easy to generate readme
+easy to use
 
 ## License
 
